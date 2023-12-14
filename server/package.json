@@ -1,0 +1,21 @@
+{
+  "name": "downloadfiles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon  index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^6.0.1",
+    "aws-sdk": "^2.1517.0",
+    "dotenv": "^16.3.1",
+    "http-status": "^1.7.3",
+    "joi": "^17.11.0",
+    "nodemon": "^3.0.2",
+    "uuid": "^9.0.1"
+  }
+}
